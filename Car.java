@@ -1,5 +1,6 @@
 public class Car {
-    //atribut
+    //Contoh Encapsulation
+    //Atribut dibuat private
     private String brand;
     private String type;
     private String color;
@@ -16,10 +17,11 @@ public class Car {
         this.speed = speed;
     }
 
-    //method
+    //Data brand diakses melalui method getter
     public void accelerate(int speedIncrease) {
     }
     public String getBrand() {
         return brand;
     }
 }
+
